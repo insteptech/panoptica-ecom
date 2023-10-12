@@ -1,0 +1,2730 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family:"PanopticaSans-Thin"; */
+    background-color: #ECECEC;
+}
+
+/* @font-face {
+    font-family: "PanopticaSans-Thin";
+    src: local("PanopticaSans-Thin"),
+    url('./assets/fonts/PanopticaSans-Thin.woff') format("woff"),
+    url('./assets/fonts/PanopticaSans-Thin.woff2') format("woff2"),
+} */
+
+.Nav-bar{
+    background-color: #FFFFFF;
+}
+
+.body-background-color{
+    background-color: #ECECEC;
+}
+
+.container-fluid-main-container{
+    padding:0
+}
+
+.card-details-input{
+    border:none
+}
+
+.card-details-input-div{
+    border:1px solid 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* predefined css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.ecom_header{
+    background: #ECECEC;
+}
+/* .ecom_flex_beetween_colom_or_sticky_bar{
+    display: flex;
+} */
+
+.confermation_form{
+    padding: 40px;
+}
+
+.ecom-left_sidebar {
+    position: sticky;
+    top: 0px;
+    height: 600px;
+}
+.ecom-left_sidebar::before{
+    content: "";
+    position: absolute;
+    background: url(../src/assets/img/Frame\ 1000006272.png);
+    width: 43.5vw;
+    height: 1000px;
+    z-index: -1;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.position_unset{
+    position: unset !important;
+}
+.ecom_top_sidebar{
+    padding: 32px;
+    background: #FFFFFF;
+    margin-top: 50px;
+}
+.ecom_top_sidebar .sec_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0D274D;
+}
+.ecom_top_sidebar .Discription{
+    padding: 32px 0px 80px 0px;
+}
+.ecom_top_sidebar .Discription .subheading_discription{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0D274D;
+}
+.ecom_top_sidebar .Discription .subheading_discription{
+    margin-bottom: 16px;
+}
+.ecom_top_sidebar .Discription p.sec_paragraph{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #848484;
+
+}
+.ecom_top_sidebar .Discription p.sec_paragraph{
+    padding-bottom: 12px;
+    margin: 0;
+}
+.ecom_plans .sub_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: #0D274D;
+
+}
+.ecom_plans .time_duration:hover{
+    background: #F5F9FF;
+   
+}
+
+.ecom_plans .time_duration input[type=radio]{
+    height: 20px;
+    width: 20px;
+    accent-color:#FFFFFF;
+    background-color:  #828282 !important;
+    margin-top: 2px;
+
+}
+.ecom_plans .time_duration input{
+    border: 1px solid #828282;
+}
+.ecom_plans .time_duration {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 20px;
+}
+.ecom_plans .time_duration .Month{
+    display: flex;
+}
+.ecom_plans .time_duration .Month .one_month{
+    margin-left: 8px;
+}
+.ecom_plans .time_duration .Month .one_month p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+
+}
+.ecom_plans .time_duration .Month .one_month span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #848484;
+}
+.ecom_plans .time_duration .cost p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.ecom_plans .time_duration .cost p del{
+    color: #ABABAB;
+}
+.ecom_top_sidebar .choosing_a_plane .buy_now a{
+padding: 14px;
+display: block;
+background: #FC8D0C;
+color: white;
+border-radius: 4px;
+font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+}
+.ecom_top_sidebar .choosing_a_plane .buy_now a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.ecom_top_sidebar .choosing_a_plane{
+    padding: 80px 75px;
+}
+.ecom_top_sidebar .choosing_a_plane .plane_feature p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D274D;
+    
+}
+.ecom_top_sidebar .choosing_a_plane .plane_feature span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+     color: #525252;
+}
+.ecom_top_sidebar .choosing_a_plane .plane_feature{
+    margin-top: 16px;
+    padding: 20px 24px;
+    background: #E8E8E8;
+border-radius: 10px;
+}
+.ecom_top_sidebar .choosing_a_plane .plane_feature .see_feature{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    
+@media (max-device-width: 767px) {
+    .ecom_header .top_fixed_dashbord{
+        display: none;
+    }
+    .ecom_flex_beetween_colom_or_sticky_bar{
+        display: block;
+    }
+
+}
+
+
+/*email confirmation page css start */
+
+
+.ecom_top_sidebar .gloab{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    cursor: pointer;
+}
+.ecom_top_sidebar .gloab span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 0px;
+    color: #848484;
+
+}
+.ecom_top_sidebar .gloab span.us{
+    display: block;
+}
+.ecom_top_sidebar .email_confermation{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ecom_top_sidebar .email_confermation .email_logo{
+margin-bottom: 32px;
+}
+.ecom_top_sidebar .email_confermation h2{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #0D274D;
+margin-bottom: 16px;
+
+
+}
+.ecom_top_sidebar .email_confermation p{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #848484;
+margin-bottom: 32px;
+
+}
+.ecom_top_sidebar .email_confermation a{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.02em;
+color: #393939;
+
+}
+.ecom_top_sidebar .email_confermation a:hover{
+text-decoration: none;
+}
+.ecom_top_sidebar .email_confermation a span{
+    color: #1C7CEE;
+}
+.form__radio-input {
+    display: none;
+  }
+  
+  .form__label-radio {
+    transform: translate(0,0) !important;
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  
+  .form__radio-button {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #828282;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+  }
+ 
+  
+  .form__radio-input:checked ~ .form__label-radio .form__radio-button::after {
+    opacity: 1;
+  }
+  .form__radio-input:checked ~ .form__label-radio .form__radio-button {
+    border: 3px solid #1660CF;
+}
+.ecom_header .more_option{
+display: flex;
+justify-content: center;
+padding-bottom: 40px;
+}
+.ecom_header .more_option a{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: block;
+color: #393939;
+margin-top: 12px;
+margin-right: 32px;
+}
+.ecom_header .more_option a:hover{
+    text-decoration: none;
+}
+.ecom_header .top_fixed_dashbord{
+    padding: 50px 44px;
+}
+.ecom_header .confermation_form h3{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #FFFFFF;
+}
+
+.ecom_header  .confermation_form p{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FFFFFF;
+
+}
+
+
+.ecom_header .confermation_form .accordian_body:hover{
+    background: #DFE2E9;
+}
+.ecom_header .confermation_form  .slect_month{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #172D4B;
+}
+.ecom_header .confermation_form span.slect_month img:focus{
+    transform: rotate(-90deg);
+}
+.ecom_header .confermation_form .price{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #172D4B;
+}
+.ecom_header .confermation_form .accordian_body_selected span{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.ecom_header .confermation_form .subtotal p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.ecom_header .confermation_form .subtotal span{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+text-align: right;
+color: #FFFFFF;
+}
+.ecom_header .confermation_form .subtotal{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted white;
+    padding-bottom: 20px;
+}
+.ecom_header .confermation_form .total p{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+color: #FFFFFF;
+
+}
+.ecom_header .confermation_form .total span{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+color: #FFFFFF;
+}
+.ecom_header .confermation_form .total{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  
+}
+.ecom_header  .confermation_form .accordian_tab .accordian_body{
+    display: flex;
+    justify-content: space-between;
+}
+.ecom_header .confermation_form .accordian_tab .accordian_body_selected{
+    display: flex;
+    justify-content: space-between;
+}
+.ecom_header .confermation_form .accordian_tab .accordian_btn{
+    padding: 12px;
+    border: 1.00832px solid #FC8D0C;
+    border-radius: 3px;
+    outline: none;
+    background-color: #152438 !important;
+    color: white;
+    text-decoration: none;
+}
+.ecom_header .confermation_form .accordian_tab .accordian_body span{
+    padding: 12px;
+}
+.ecom_header .confermation_form .accordian_tab{
+    margin-top: 20px;
+}
+.ecom_header .confermation_form .price del{
+    color: #ABABAB;
+    margin-right: 5px;
+}
+.change_plan{
+margin-top: 52px;
+}
+.change_plan a{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+   padding: 10px 0;
+    text-align: center;
+    display: block;
+}
+.mobile_screen{
+    margin-top: 50px;
+    display: none;
+    background: url(../src/assets/img/Frame\ 1000006272.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-device-width: 767px) {
+
+  
+    .mobile_screen{
+        margin-top: 50px;
+        display: block;
+        padding: 32px;
+    }
+
+}
+
+
+
+
+/* create account page css start */
+
+
+
+.ecom_top_sidebar_account_section{
+    padding: 32px 97px;
+    background: #FFFFFF;
+    width: 100%;
+    margin-top: 40px;
+}
+.ecom_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0D274D;
+    margin-bottom: 32px;
+}
+.ecom_top_sidebar_account_section .gloab {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    cursor: pointer;
+    
+}
+.ecom_top_sidebar_account_section .gloab span.us {
+    display: block;
+}
+.ecom_top_sidebar_account_section .gloab span {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 0px;
+    color: #848484;
+}
+.ecom_header .cisco_logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+
+.ecom_header .input_form_group .floating_labal  {
+    margin-bottom: 32px;
+}
+
+.ecom_header .input_form_group .floating_labal .form-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .ecom_header .input_form_group .floating_labal label {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    opacity: 1;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #848484;
+
+  }
+  
+ .ecom_header .input_form_group .floating_labal input {
+    border: 1px solid #B8B8B8;
+    outline: none;
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+   padding: 16px 18px;
+   font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .ecom_header .input_form_group .floating_labal input:focus + label, input:not(:placeholder-shown) + label {
+    transform: translate3d(0,-40%,0);
+    font-size: 0.8rem;
+    color: #666;
+    opacity: 1;
+  }
+  
+
+
+
+ .input_form_group select#country_select {
+    bottom: 13px;
+    position: relative;
+    border: none;
+    left: 2px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 18px;
+    border: 1px solid #B8B8B8;
+    border-radius: 3px;
+    background: #FCFCFC;
+    resize: none;
+    outline: none;
+   
+}
+.confirm_condition{
+font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #393939;
+
+}
+.register_btn{
+font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.0025em;
+color: #FFFFFF;
+background: #FC8D0C;
+border-radius: 4px;
+padding: 12px 0;
+display: block;
+margin-top: 32px;
+}
+.register_btn:hover{
+    color: #FFFFFF;
+background: #FC8D0C;
+text-decoration: none;
+}
+.Already_account{
+font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #0D274D;
+display: block;
+padding: 16px 0;
+text-align: center;
+
+}
+.Already_account span{
+    color: #FC8D0C;
+}
+.Already_account:hover{
+    color: #0D274D;
+    text-decoration: none;
+}
+@media (max-device-width: 1180px) {
+    .ecom_top_sidebar_account_section{
+        padding: 32px 25px;
+    }
+
+}
+
+
+/* log in page css start */
+
+
+.forgot_password, .Unblock_account, .help{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    padding: 0 0 0 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #393939;
+    
+}
+.forgot_password:hover, .Unblock_account:hover, .help:hover{
+    color: #393939;
+    text-decoration: none;
+}
+.w-40{
+    width: 37% !important;
+}
+.w-60{
+    width: 60% !important;
+}
+.w-51{
+    width: 48% !important;
+}
+.order_card_number{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #B8B8B8;
+    padding: 14px 19px;
+}
+.order_card_number span{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.02em;
+color: #848484;
+
+}
+.agree_click{
+    display: flex;
+    margin-top: 16px;
+}
+.agree_click p{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #393939;
+}
+.agree_click p span{
+    text-decoration: underline;
+}
+.click_and_purchase p{
+    font-family: 'Cisco Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #393939;
+margin-top: 32px;
+}
+.incluid_other_item_in_plane .liners {
+    width: 100%;
+    border-color: #FFFFFF;
+    color: rgb(108, 117, 125);
+    margin: 40px 0px;
+    flex-shrink: 0;
+    display: flex;
+    white-space: nowrap;
+    text-align: center;
+    border: 0px;
+    
+}
+.incluid_other_item_in_plane .liners h6{
+    background: #1A3357;
+    padding: 0 10px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.incluid_other_item_in_plane .liners::before, .liners::after {
+    position: relative;
+    width: 100%;
+    border-top: thin solid #FFFFFF;
+    top: 50%;
+    content: "";
+    transform: translateY(40%);
+}
+.incluid_other_item_in_plane .include_plane{
+    margin-bottom: 62px;
+}
+.incluid_other_item_in_plane .include_plane p{
+    padding-left: 13.5px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+     color: #FFFFFF;
+
+}
+.incluid_other_item_in_plane .include_plane .plane_type{
+margin-bottom: 24px;
+}
+.incluid_other_item_in_plane .promo_code .promocode_btn{
+padding: 5px 4px 5px 0px;
+display: flex;
+justify-content: space-between;
+background: #001940;
+border-radius: 10px;
+align-items: center;
+}
+.incluid_other_item_in_plane .promo_code .promocode_btn span,.incluid_other_item_in_plane .promo_code .promocode_btn input{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #848484;
+    padding: 0 12px;
+
+}
+.incluid_other_item_in_plane .promo_code .promocode_btn input{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.incluid_other_item_in_plane .promo_code .promocode_btn button{
+    padding: 12px 15px;
+    background: #0C4397;
+    border-radius: 10px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    
+}
+.incluid_other_item_in_plane .promo_code .promocode_tax_subtotal_discount{
+    margin-top: 16px;
+}
+.incluid_other_item_in_plane .promo_code .promocode_tax_subtotal_discount p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+.incluid_other_item_in_plane .promo_code .promocode_tax_subtotal_discount{
+    border-bottom: 1px dashed #FFFFFF;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.Chooseplane{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+
+/* thank you page css start */
+
+
+
+.ecom_thank_you_page .thanks_for_order_sec{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading {
+margin-top: 23px;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading h2 {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #0D274D;
+    text-align: center;
+
+}
+.bg_space{
+    padding: 40px 0;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading p {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #5F6368;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading p span{
+    color: #0D274D;
+    font-weight: 700;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading p.greeting_description{
+    margin-bottom: 16px;
+}
+.ecom_thank_you_page{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading .go_to_product{
+    padding: 6px 48px;
+    background: #FC8D0C;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+     display: block;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+    width: 36%;
+    border: none;
+    outline: none;
+    margin: 32px auto;
+}
+.ecom_thank_you_page .thanks_for_order_sec .greeting_heading .go_to_product:hover{
+    text-decoration: none   ;
+}
+.thank_u_page_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #393939;
+    margin-bottom: 32px;
+    
+}
+.order_details, .billing_information, .billing_summary, .payment_method{
+    background: #FFFFFF;
+   border-radius: 10px;
+   padding: 32px 24px;
+   margin-bottom: 32px;
+}
+.tabal_row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid #D4D4D4;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.order_details .tabal_row{
+    align-items: center;
+}
+.tabal_row .tabal_body button{
+    background: #FCFDFF;
+    border: 1px solid rgba(13, 39, 77, 0.2);
+    border-radius: 7px;
+    padding: 4px 16px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #0D274D;
+
+}
+.billing_information .tabal_row .tabal_body p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5F6368;
+}
+.default_tabal .tabal_row .tabal_body p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5F6368;
+}
+.tabal_row .tabal_body p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5F6368;
+}
+.tabal_row .tabal_body p.tabal_inner_para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+    
+}
+
+.billing_summary .thank_u_page_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #0D274D;
+}
+
+.billing_summary .billing_summary_tabal{
+    padding-bottom: 32px;
+    border-bottom:  1px solid #D4D4D4;
+    padding-top: 24px;
+}
+.billing_summary .billing_summary_tabal_inner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 12px;
+
+
+}
+.billing_summary .billing_summary_tabal_inner p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: right;
+    color: #393939;
+}
+.billing_summary_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+.billing_summary_total p:nth-child(1){
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #393939;
+
+
+}
+.billing_summary_total p:nth-child(2){
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: right;
+    color: #0D274D;
+}
+.payment_method_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment_method_inner p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #393939;
+    
+}
+.payment_method_inner span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+     text-align: right;
+    color: #0D274D;
+
+}
+
+
+/* plan and billing page css start */
+
+
+.about_plan a{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C7CEE;
+    text-decoration: none;
+    margin-right: 22px;
+}
+.about_plan span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #393939;
+    margin-left: 22px;
+
+}
+.plan_and_billing_sec{
+padding: 111px 0 66px 0;
+}
+.plan_and_billing_sec .panoptica_plane_detail{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.plan_and_billing_sec .panoptica_plane_detail_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+    margin-bottom: 8px;
+    
+}
+.panoptica_plane_detail .pt-30{
+    display: flex;
+    padding: 23px 23px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pt-23{
+    padding: 23px 23px !important;
+}
+.panoptica_plane_detail .pt-30 p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+     text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+}
+
+.panoptica_plane_detail .pt-30 .free_plan {
+ margin-top: 46px;
+ margin-bottom: 8px;
+ width: 100%;
+}
+.panoptica_plane_detail .pt-30 .free_plan .zero{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #393939;
+    text-align: center;
+
+    
+}
+.panoptica_plane_detail .pt-30 .free_plan .dollar{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #393939;
+    margin-right: 4px;
+    
+}
+.panoptica_plane_detail .pt-30 .free_plan p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+
+}
+.panoptica_plane_detail .pt-30 .click_here_start_free{
+    border: 1px solid #FC8D0C;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px 53px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FC8D0C;
+    margin-top: 52px;
+
+}
+.click_here_start_free:hover{
+    color: #FC8D0C;
+    text-decoration: none;
+}
+
+.plan_benifit .liners {
+    width: 100%;
+    border-color: #DCDCDC;
+    color: rgb(108, 117, 125);
+   margin-bottom: 27px;
+    flex-shrink: 0;
+    display: flex;
+    white-space: nowrap;
+    text-align: center;
+    border: 0px;
+}
+.plan_benifit .liners::before, .liners::after {
+    position: relative;
+    width: 100%;
+    border-top: thin solid #DCDCDC;
+    top: 50%;
+    content: "";
+    transform: translateY(49%);
+}
+.plan_benifit .plan_benifits_inner p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    
+    color: #959595;
+}
+.plan_benifit .plan_benifits_inner{
+    padding: 16px 23px;
+}
+.plan_benifit .plan_benifits_inner .mb-19{
+    margin-bottom: 19px;
+}
+.panoptica_plane_detail .border_top{
+    background: #1954A2;
+border-radius: 10px 10px 0px 0px;
+padding: 8px 0px;
+display: flex;
+justify-content: center;
+}
+.panoptica_plane_detail .border_top p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+     text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.panoptica_plane_detail .pt-30 .panoptica_profesnol_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+     text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+}
+.panoptica_plane_detail .pt-30 p.panoptica_profesnol_para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #525252;
+}
+.panoptica_plane_detail .pt-30 span.slect_month {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0D274D;
+}
+.panoptica_plane_detail .pt-30 span.price {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #0D274D;
+  
+}
+.panoptica_plane_detail .pt-30 span.price del{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #808080;
+}
+.panoptica_plane_detail .pt-30 .accordian_body {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.panoptica_plane_detail .pt-30 .accordian_body:hover {
+    background: #DFE2E9;
+}
+.panoptica_plane_detail .pt-30 .accordian_body_selected {
+    display: flex;
+    justify-content: space-between;
+}
+.panoptica_plane_detail .pt-30 button.btn-block.accordian_btn {
+    border: 1.00832px solid #FC8D0C;
+    border-radius: 3px;
+    padding: 13px 12px;
+}
+.click_here_extend_plane{
+    background: #FC8D0C;
+    border-radius: 4px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px 45px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 15px;
+
+
+}
+.click_here_extend_plane:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.free_plan_accordian{
+    margin-top: 32px !important;
+}
+.click_here_lets_talk{
+    background: #FC8D0C;
+    border-radius: 4px; 
+    padding: 5px 53px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 52px;
+}
+.click_here_lets_talk:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.pricing_mid .left_border {
+    border-left: 1px solid #CDCDCD;
+    text-align: center;
+}
+.top_pricing_area .pricing_plan {
+    padding-bottom: 50px;
+}
+.pricing_plan h5 {
+    margin-bottom: 10px;
+}
+
+
+.pricing_plan p {
+    margin-bottom: 20px;
+}
+.pricing_plan a.btn {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #0060FF;
+    border: 1px solid #0060FF;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 51px;
+} 
+.pricing_plan a.btn:hover{
+    background: #0060FF;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+.pricing_plan a.click_here_extend_plane {
+    background: #FC8D0C;
+    border-radius: 4px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px 45px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.pricing_plan a.click_here_extend_plane:hover {
+    background: #FC8D0C;
+}
+
+.pricing_plan {
+    text-align: center;
+}
+.pricing_plan h5 {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+}
+.pricing_plan p {
+    margin-bottom: 20px;
+}
+
+.pricing_plan p {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    -webkit-font-feature-settings: 'salt' on, 'liga' off;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #22222A;
+}
+
+.top_pricing_area .pricing_plan {
+    padding-bottom: 50px;
+}
+.protect_sec:first-child h5 {
+    display: none;
+}
+.protect_sec h5 {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.protect_sec ul li {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #22222A;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.plan-features li {
+    margin-bottom: 20px;
+    height: 40px;
+}
+.pricing_decs ul li{
+    list-style: none;
+}
+.single-table h1 {
+    visibility: hidden;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.pricing_decs .pricing_decs_mainheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricing_decs{
+    margin-top: 50px;
+}
+.left_border {
+    border-left: 1px solid #CDCDCD;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px){
+    .ecom-left_sidebar::before{
+        width: 100%;
+        height: 100%;
+    }
+    .ecom-left_sidebar{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .pricing_decs {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .protect_sec ul li {
+        height: 92px;
+    }
+    .plan-features li {
+        margin-bottom: 20px;
+        height: 91px;
+    }
+    .pricing_right .row {
+        -ms-flex-wrap: inherit;
+        flex-wrap: inherit
+    }
+    .top_pricing_area .row{
+        -ms-flex-wrap: inherit;
+        flex-wrap: inherit
+    }
+
+}
+
+  .show_price{
+    transform: rotate(180deg);
+    transition: all 0.4s ease-in-out;
+  }
+
+  /* Panoptica - Professional page css start */
+
+  .subscription_sec{
+margin-top: 50px;
+  }
+  .subscription_sec_inner{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 32px 24px;
+    margin-bottom: 32px;
+  }
+  .subscription_sec_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0D274D;
+    padding-bottom: 5px;
+
+  }
+  .cancel_subscription{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1C7CEE;
+  }
+  .cancel_subscription:hover{
+text-decoration: none;
+  }
+  .subscription_sec_para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0D274D;
+  }
+  .subscription_sec_top_heading{
+    margin-bottom: 34px;
+  }
+  .tabal_row .tabal_body button.quantity{
+     color: #5F6368;;
+  }
+  .next_invoice{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 14px;
+    background: #F8F8F8;
+    border-radius: 5px;
+  }
+  .latest_invoice{
+    color: #1C7CEE !important;
+  }
+  .next_invoice .next_invoice_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+     color: #0D274D;
+     margin-bottom: 32px;
+
+
+  }
+  .next_invoice span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5F6368;
+  }
+  .current_total{
+    padding: 16px 0px 0px;
+    border-top: 1px dashed #5F6368;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 8px;
+  }
+  .current_total p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0D274D;
+
+  }
+  .edit_billing_information{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C7CEE;
+
+  }
+  .edit_billing_information:hover{
+    color: #1C7CEE;
+    text-decoration: none;
+  }
+  .all_invoice{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 42px 0 32px 0;
+   
+  }
+  .all_invoice .all_invoice_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0D274D;
+    padding: 0 32px 0;
+  }
+  .table thead th{
+    border: none;
+  }
+  .table-primary th, .table-primary thead th {
+    border: none;
+}
+.table td, .table th{
+    border: none;
+}
+.bg_green{
+    padding: 17px 22px;
+     background: #133774;
+    color: #FFFFFF;
+}
+.bg_green th{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 22px 17px;
+}
+.green_anchor{
+    color: #1C7CEE !important;
+}
+.table_row td{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #0D274D;
+    padding: 22px 17px;
+}
+.table_row .paid_btn{
+    padding: 2px 8px;
+    background: #EAFFF1;
+    border: 1px solid #1AD85B;
+    border-radius: 7px;
+    color: #027429;
+
+}
+.table_row .pending_btn{
+    padding: 2px 8px;
+    background: #FFEAEA;
+    border: 1px solid #D81A1A;
+    border-radius: 7px;
+    color: #D81A1A;
+    
+}
+.table_row td span{
+    font-weight: 700;
+    color: #0D274D;
+}
+.table-responsive{
+    margin-top: 42px;
+}
+.invoice_row_secound{
+    background: #F9F8F8;
+}
+
+
+
+/* ecom_current_plan_section page css start */
+
+
+.ecom_current_plan_section{
+    background: #F5F5F5;
+}
+.ecom_current_plan_section .tab {
+	overflow: hidden;
+	text-align: center;
+}
+.ecom_current_plan_section .current_plan_tab{
+    background: #F9F9F9;
+border-bottom: 2px solid #D9D9D9;
+}
+.ecom_current_plan_section .tab button {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #898989;
+    border: none;
+    padding: 32px 8px 16px;
+    background: none;
+    margin: 0 2rem;
+    border-bottom: 2px solid #F9F9F9;
+}
+.ecom_current_plan_section .tab button a{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #898989;
+    border: none;
+  
+    background: none;
+ 
+  
+}
+
+
+
+.ecom_current_plan_section .tab button.active {
+	border-bottom: 2px solid #133774;
+    color: #133774;
+}
+
+.ecom_current_plan_section .current_subscription_plan .tabcontent {
+	display: none;
+	border-top: none;
+	
+}
+.ecom_current_plan_section .current_subscription_plan{
+margin-top: 50px;
+}
+.current_subscription_plan .current_subscription_plan_inner{
+    background: #FFFFFF;
+border: 1px solid #1954A2;
+border-radius: 10px;
+width: 100%;
+
+}
+.coloum_top_border{
+    padding: 8px 10px;
+    background: #1954A2;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    
+}
+.coloum_top_border p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+.panoptica_current{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 34px;
+        margin-bottom: 71px;
+    }
+.panoptica_current .panoptica_profesnol_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+    margin-bottom: 8px;
+    }
+    .panoptica_current .product_or_nodes{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #525252;
+
+    }
+    .current_subscription_plan_inner .order_table{
+        padding: 0 20px;
+        margin-bottom: 27px;
+    }
+    .current_subscription_plan_inner .manage_acc .manage_account{
+        background: #FC8D0C;
+        border-radius: 4px; 
+        font-family: 'Cisco Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+       text-align: center;
+       display: inline-block;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding: 5px 32px;
+       
+    }
+    .current_subscription_plan_inner .manage_acc .manage_account:hover{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .current_subscription_plan_inner .manage_acc{
+        display: flex;
+        justify-content: center;
+      
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .current_subscription_plan_inner .change_plan_for_here{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FC8D0C;
+    text-align: center;
+    display: block;
+    margin-bottom: 36px;
+
+    }
+    .current_subscription_plan_inner .all_node_and_cluster{
+        padding: 0 22px 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .current_subscription_plan_inner .all_node_and_cluster span{
+        font-family: 'Cisco Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #959595;
+    }
+    .added_card{
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    }
+    .added_card .next_billing{
+        display: flex;
+        justify-content: space-between;
+    }
+    .added_card .next_billing p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #393939;
+    }
+    .custom-switch{
+        margin-left: 12px;
+    }
+    .all_total{
+
+    }
+    .all_total span{
+        font-family: 'Cisco Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #393939;
+    }
+    .add_card span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #393939;
+    }
+    .add_card button{
+    background: #FC8D0C;
+    border-radius: 4px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 5px 32px;
+    border: none;
+    }
+    .add_card{
+        margin-top: 20px;
+    }
+    .upgrade_yourself{
+        background: url(../src/assets/img/small-frame.png);
+        background-size: cover;
+        padding: 24px;
+        border-radius: 5px;
+        margin-top: 38px;
+    }
+.upgrade_yourself p{ 
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    }
+ .panoptica_enterprice_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    }
+.panoptica_enterprice{
+        margin-top: 24px;
+    }
+.panoptica_enterprice p {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 12px;
+    
+
+    }
+.you_will_get{
+        border: 2px solid #2A59A0;
+        border-radius: 7px;
+        padding: 12px 16px;
+        margin-top: 20px;
+        margin-bottom: 44px;
+    }
+ .you_will_get .custom_nodes{
+        font-family: 'Cisco Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+.you_will_get .para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    }
+
+.Upgrade_btn{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1D3C6A;
+    background: #FFFFFF;
+    border-radius: 7px;
+    padding: 5px 57px;
+    border: none;
+
+}
+ .added_card .custom-control-input:focus~.custom-control-label::before
+{
+box-shadow: unset;
+}
+/* change_your_password page css */
+
+
+.change_your_password .change_your_password_heading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D274D;
+    margin-bottom: 10px;
+
+}
+.change_your_password .change_your_password_para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+   text-align: center;
+   color: #393939;
+   margin-bottom: 32px;
+
+}
+
+.change_your_password .forgot_password_or_help a{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #393939;
+    
+}
+.change_your_password .forgot_password_or_help{
+    margin-bottom: 32px;
+}
+
+.change_your_password .click_to_change_password{
+    padding: 12px 74px;
+    background: #FC8D0C;
+    border-radius: 4px;
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+    border: 0;
+
+
+}
+
+    /* Cancell_Page */
+
+
+
+    .Cancell_Page-parent .about_plan .margin-left-a {
+        margin-left: 22.3px;
+    }
+    .Cancell_Page {
+        margin-top: 54px;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 40px;
+    }
+    .Cancell_Page .cancell-box > h1 {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        text-align: center;
+        color: #0d274d;
+        margin-bottom: 8px;
+    }
+    .Cancell_Page .cancell-box > p {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #525252;
+        margin-bottom: 32px;
+    }
+    
+    .Cancell_Page .floating_labal {
+        margin-bottom: 32px;
+    }
+    
+    .Cancell_Page .floating_labal .form-group {
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    
+    .Cancell_Page .floating_labal label {
+        position: absolute;
+        top: 10px;
+        left: 19px;
+        transition: all 0.3s ease-in-out;
+        pointer-events: none;
+        opacity: 1;
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color: #848484;
+    }
+    
+    .Cancell_Page .floating_labal input {
+        border: 1px solid #b8b8b8;
+        outline: none;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 3px;
+        display: block;
+        width: 100%;
+        padding: 16px 18px;
+        font-size: 14px;
+        background-color: transparent;
+    }
+    
+    .Cancell_Page .floating_labal input:focus + label,
+    input:not(:placeholder-shown) + label {
+        transform: translate3d(0, -40%, 0);
+        font-size: 0.8rem;
+        color: #666;
+        opacity: 1;
+    }
+    
+    .Cancell_Page .reason-box h3 {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #393939;
+        margin-bottom: 24px;
+    }
+    .Cancell_Page .reason-box .reason-radio {
+        padding: 12px 18px;
+        display: flex;
+        gap: 10px;
+        width: fit-content;
+        margin-bottom: 16px;
+    }
+    .Cancell_Page .reason-box .reason-radio.border-bottomcancel {
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .Cancell_Page .form__radio-button {
+        top: -7px;
+    }
+    .Cancell_Page .reason-box .reason-radio > p {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        color: #393939;
+    }
+    .Cancell_Page .reason-box .text-area-box textarea {
+        border: 1px solid #e6e6e6;
+        resize: none;
+        border-radius: 3px;
+        padding: 12px 18px;
+        height: 158px;
+    }
+    .Cancell_Page .reason-box .text-area-box textarea:focus {
+        outline: 0;
+    }
+    .Cancell_Page .buttons-box {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    .Cancell_Page .buttons-box a {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+        color: #fc8d0c;
+    }
+    .Cancell_Page .buttons-box button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 20px;
+        gap: 8px;
+        width: fit-content;
+        height: 36px;
+        background: #fc8d0c;
+        border-radius: 4px;
+        border: none;
+        color: #fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Cisco Sans";
+    }
+    
+    /* Sad Cancel  */
+    .Sad_Cancel h1 {
+        margin-bottom: 40px;
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        text-align: center;
+        color: #0d274d;
+    }
+    .Sad_Cancel > p {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #393939;
+        margin-bottom: 32px !important;
+    }
+    .Sad_Cancel .buttons-box button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 20px;
+        gap: 8px;
+        width: fit-content;
+        height: 36px;
+        background: #fc8d0c;
+        border-radius: 4px;
+        border: none;
+        color: #fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Cisco Sans";
+    }
+    .Sad_Cancel .panoptica_professional {
+        border: 1px solid #1954a2;
+        border-radius: 7px;
+        padding: 12px 24px;
+        display: flex;
+        width: fit-content;
+        justify-content: center;
+    }
+    
+    .Sad_Cancel .panoptica_professional p {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21.2021px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #13284c;
+    }
+    .text-button-tagline {
+        font-family: "Cisco Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px !important;
+        line-height: 24px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #525252;
+    }
+    .Cancell_Page .buttons-box button {
+        padding: 6px 69px !important;
+    }
+    .bg-100vh {
+        height: 100vh;
+    }
+
+
+    /* popup */
+    
+.pop-up-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.pop-up {
+    width: 488px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.pop-up {
+    padding: 24px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #FFFFFF;
+border-radius: 10px 10px 0px 0px;
+}
+
+.pop-up h4 {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+    margin-bottom: 32px;
+}
+
+.pop-up img {
+    width: 56px;
+    margin-bottom: 16px;
+}
+
+.pop-up h5 {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #393939;
+}
+
+.pop-up p {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #525252;
+    margin-bottom: 32px;
+}
+
+.contact-us-btn {
+    padding: 4px 16px;
+   
+    background: #0068FF;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    
+    margin-bottom: 24px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.contact-us-btn:hover{
+    background: #004BB7;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cancel-my-membership {
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #FC8D0C;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.cancel-my-membership:hover{
+    color: #CC6E00;
+    
+
+}
+.decide-letter-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+   
+    
+    background: #FC8D0C;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.decide-letter-btn:hover{
+    background: #CC6E00;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 488px;
+    padding: 15px 20px 0px 20px;
+    border-top:1px solid#EEEEEE ;
+}
+
+
+
+/* upgrade-btn-pop-up */
+.popup-para{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #393939;
+    margin-bottom: 22px;
+
+}
+.ecom_pop_up_subheading{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #0D274D;
+    margin-bottom: 12px;
+}
+.pop-up-span{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #393939;
+    margin-top: 16px;
+}
+
+/* confirm_cancelation page css  */
+.confirm_cancelation{
+    padding: 16px 40px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.confirm_cancelation h2{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 16px;
+    color: #393939;
+}
+.confirm_cancelation p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #525252;
+    margin-top: 4px;
+}
+.confirm_cancelation2{
+    background: #F7F7F7;
+    padding: 16px;
+}
+.confirm_cancelation2 p{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+    
+}
+.confirm_cancelation2 .checkbox_text{
+    margin-top: 20px;
+}
+.dont_cancel_or_continue{
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+.dont_cancel{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    display: inline-block;
+    color: #FC8D0C;
+    padding: 4px;
+}
+.dont_cancel:hover{
+    color: #FC8D0C;
+    text-decoration-line: underline;
+}
+.yes_continue{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    color: #FFFFFF;
+    background: #FC8D0C;
+    border-radius: 4px;
+    padding: 4px 16px;
+    display: inline-block;
+    
+}
+.yes_continue:hover{
+    color: #FFFFFF;
+}
+
+.swiper
+{
+    width: 100%;
+   
+}
+@media (max-device-width: 767px) {
+   .for_mobile_screen{
+    display: block !important;
+   }
+   .desktop_view{
+    display: none;
+   }
+   .plan_and_billing_sec .panoptica_plane_detail{
+    margin-bottom: 30px;
+   }
+   
+
+
+}
+.for_mobile_screen{
+    display: none;
+   }
+   .for_mobile_screen ul, ol li{
+    list-style: none;
+   }
+   
+   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%;
+}
+
+.pricing_plan button{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+    margin-top: 10px;
+   padding: 7px 18px;
+    width: 100%;
+    border: none;
+    
+}
+.pricing_plan button.active{
+    font-family: 'Cisco Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #0D274D;
+    margin-bottom: 10px;
+    background-color: #3b4245;
+    color: #fff;
+    padding: 7px 18px;
+    width: 100%;
+    border: none;
+}
+.for_mobile_screen .pricing_plan{
+    height: 283px;
+}
+.active{
+    background-color: #666;
+    color: white;
+}
+.border_bottom_for_table_struture {
+padding: 0 !important;
+}
+.desktop_tabal .pricing_decs ul li {
+    border-bottom: 1px solid #E8E8E8;
+    list-style: none;
+}
+.border_bottom_for_table_struture .plan-features li{
+height: 53px;
+}
+.border_bottom_for_table_struture .protect_sec ul li{
+    height: 53px;
+}
