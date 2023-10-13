@@ -413,21 +413,21 @@ function Billingaddress({setStep}) {
                                     </div>
                                     <div className="ecom_top_sidebar my-5">
                                         <h3 className="ecom_subheading">Payment</h3>
-                                        <div className="card-details-input-div">
+                                        {/* <div className="card-details-input-div">
                                             <input className="card-details-input" placeholder='Card Number' />
                                             <input className="card-details-input" placeholder='| MM/YY' />
                                             <input className="card-details-input" placeholder='| CVV' />
-                                        </div>
+                                        </div> */}
                                         <div className="order_card_number">
                                             <div className="d-flex">
                                                 <img src="/img/BASE.svg" alt="" />
-                                                <span className="mx-3">Card Number</span>
+                                                <input className="mx-3" placeholder='Card Number'/>
                                             </div>
                                             <div className="span_group">
                                                 <span className="mx-1">|</span>
-                                                <span>MM/YY</span>
+                                                <input placeholder='MM/YY' className='w-25'/>
                                                 <span className="mx-1">|</span>
-                                                <span>CVV</span>
+                                                <input placeholder='CVV' className='w-25'/>
                                             </div>
                                         </div>
                                         <div className="agree_click">
@@ -450,7 +450,7 @@ function Billingaddress({setStep}) {
                                             <div className="confermation_form_submission">
                                                 <div className="accordion accordian_tab" id="accordionExample">
                                                     <div className="card">
-                                                        <select>
+                                                        <select className='accordian_btn'>
                                                             {plans?.map((item, index) => (
                                                                 <option>
                                                                     <div className="accordian_body">
@@ -460,7 +460,7 @@ function Billingaddress({setStep}) {
                                                                 </option>
                                                             ))}
                                                         </select>
-                                                        <div className="card_header" id="headingOne">
+                                                        {/* <div className="card_header" id="headingOne">
                                                             <h2 className="mb-0">
                                                                 <button className="  btn-block accordian_btn " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                                     <div className="accordian_body_selected">
@@ -469,9 +469,9 @@ function Billingaddress({setStep}) {
                                                                     </div>
                                                                 </button>
                                                             </h2>
-                                                        </div>
+                                                        </div> */}
                                                         <div id="collapseOne" className="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
-                                                            <div className="card_body">
+                                                            {/* <div className="card_body">
 
                                                                 <div className="accordian_body">
                                                                     <span className="slect_month">3  Month</span>
@@ -481,7 +481,7 @@ function Billingaddress({setStep}) {
                                                                     <span className="slect_month">6  Month</span>
                                                                     <span className="price"> <del>$23,928.00</del>$19,142.40</span>
                                                                 </div>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
                                                     </div>
 

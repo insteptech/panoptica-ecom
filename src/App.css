@@ -203,10 +203,11 @@ p{
     margin: 0;
 
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-    margin: 0;
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p{
+    margin: 0 ;
 
 }
+
 a:hover{
     text-decoration: none;
 }
@@ -229,7 +230,7 @@ a:hover{
 .ecom-left_sidebar::before{
     content: "";
     position: absolute;
-    background: url(../src/assets/img/Frame\ 1000006272.png);
+    background: url(../public/img/Frame\ 1000006272.png);
     width: 43.5vw;
     height: 1000px;
     z-index: -1;
@@ -566,6 +567,19 @@ color: #FFFFFF;
     line-height: 22px;
     color: #172D4B;
 }
+
+
+.ecom_header .confermation_form .accordian_tab .accordian_btn option {
+    margin: 20px;
+    -webkit-margin-before:20px;
+    -webkit-margin-after:20px;
+    -webkit-margin-start:20px;
+    -webkit-margin-end:20px;
+    
+}
+
+
+
 .ecom_header .confermation_form span.slect_month img:focus{
     transform: rotate(-90deg);
 }
@@ -671,7 +685,7 @@ margin-top: 52px;
     font-size: 16px;
     line-height: 22px;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
    padding: 10px 0;
     text-align: center;
     display: block;
@@ -679,7 +693,7 @@ margin-top: 52px;
 .mobile_screen{
     margin-top: 50px;
     display: none;
-    background: url(../src/assets/img/Frame\ 1000006272.png);
+    background: url(../public/img/Frame\ 1000006272.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -902,6 +916,13 @@ letter-spacing: 0.02em;
 color: #848484;
 
 }
+.span_group{
+    text-align: right;
+}
+.order_card_number input{
+    border: none;
+    outline: none;
+}
 .agree_click{
     display: flex;
     margin-top: 16px;
@@ -968,6 +989,7 @@ margin-top: 32px;
     font-size: 14px;
     line-height: 19px;
      color: #FFFFFF;
+     margin-bottom: 0;
 
 }
 .incluid_other_item_in_plane .include_plane .plane_type{
@@ -2145,7 +2167,8 @@ width: 100%;
         margin-top: 20px;
     }
     .upgrade_yourself{
-        background: url(../src/assets/img/small-frame.png);
+        /* background: url(../public/img/small-frame.png); */
+        background: url(../public/img/small-frame.png);
         background-size: cover;
         padding: 24px;
         border-radius: 5px;
@@ -2865,4 +2888,8 @@ height: 53px;
 }
 .border_bottom_for_table_struture .protect_sec ul li{
     height: 53px;
+}
+.agree_click input{
+    width: 16px;
+    height: 16px;
 }
