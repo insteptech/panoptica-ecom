@@ -3,6 +3,7 @@ import { Modal } from 'react-bootstrap'
 
 function UpgradeModal(props) {
     return (
+        <section class="ecom_header">
         <div class="container">
             <Modal
                 {...props}
@@ -67,6 +68,7 @@ function UpgradeModal(props) {
                 </Modal.Body>
             </Modal>
         </div>
+        </section>
     )
 }
 

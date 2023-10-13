@@ -21,6 +21,7 @@ function Login() {
         return errors
     }
     return (
+        <section class="ecom_header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-7">
@@ -151,6 +152,7 @@ function Login() {
                 </div>
             </div>
         </div>
+        </section>
     )
 }
 

@@ -20,6 +20,7 @@ function Signupstep3() {
               </div>
               <div className="email_confermation">
                 <div className="email_logo">
+                  {/* <img src="../../" className="img-fluid" alt=""/> */}
                   <img src="/img/XMLID_31_.svg" className="img-fluid" alt=""/>
                 </div>
                 <h2 className="sub_heading">Confirm your email</h2>

@@ -13,17 +13,16 @@ function Signup() {
 
     return (
         <div>
-            <Form
+            {/* <Form
                 onSubmit={handleSubmit}
-                render={({ values }) => (
+                render={({ values }) => ( */}
                     <>
-                    {console.log(values,'cweioh')}
                     {/* {step===0 && <Signupstep1 setStep={setStep}/>} */}
                     {step===0 && <Signupstep2 setStep={setStep}/>}
                     {step===1 && <Signupstep3 setStep={setStep}/>}
                     </>
-                )}
-            />
+                {/* )}
+            /> */}
         </div>
     )
 }
